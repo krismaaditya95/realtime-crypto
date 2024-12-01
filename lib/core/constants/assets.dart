@@ -1,0 +1,1 @@
+const String bitcoinIcon = 'assets/images/icons/bitcoin_icon.png';
