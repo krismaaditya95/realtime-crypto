@@ -143,7 +143,7 @@ class HomePage extends GetView<HomeController> {
                                   color: AppThemes.c1F509A, fontSize: 14)
                               ),
 
-                              Text("${double.parse(double.parse(snapshot.data!.dc!).toStringAsFixed(2))}", style: const TextStyle(
+                              Text("${double.parse(double.parse(snapshot.data!.dc!).toStringAsFixed(2))}%", style: const TextStyle(
                                   color: AppThemes.c1F509A, fontSize: 14)
                               )
                             ],
@@ -176,7 +176,7 @@ class HomePage extends GetView<HomeController> {
                                     color: AppThemes.c1F509A, fontSize: 14)
                                 ),
 
-                                Text("${double.parse(double.parse(snapshot.data!.dd!).toStringAsFixed(2))}%", style: const TextStyle(
+                                Text("${double.parse(double.parse(snapshot.data!.dd!).toStringAsFixed(2))}", style: const TextStyle(
                                     color: AppThemes.c1F509A, fontSize: 14)
                                 ),
 
